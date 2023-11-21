@@ -1,12 +1,3 @@
-#!/usr/bin/python
-"""Dewarp a given image."""
-
-# -*- coding: utf-8 -*-
-# -----------------------------------------
-# author      : Ahmet Ozlu
-# mail        : ahmetozlu93@gmail.com
-# date        : 05.05.2019
-# -----------------------------------------
 
 import cv2
 import imutils

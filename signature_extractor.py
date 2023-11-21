@@ -1,10 +1,3 @@
-"""Extract signatures from an image."""
-# ----------------------------------------------
-# --- Author         : Ahmet Ozlu
-# --- Mail           : ahmetozlu93@gmail.com
-# --- Date           : 17th September 2018
-# ----------------------------------------------
-
 import cv2
 import matplotlib.pyplot as plt
 from skimage import measure, morphology
@@ -21,7 +14,7 @@ constant_parameter_3 = 100
 constant_parameter_4 = 18
 
 # read the input image
-img = cv2.imread('./inputs/in1.jpg', 0)
+img = cv2.imread('./inputs/in2.jpg', 0)
 img = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)[1]  # ensure binary
 
 # connected component analysis by scikit-learn framework
